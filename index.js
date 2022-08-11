@@ -31,7 +31,33 @@ const questions = [
                 return false;
                 }
         }
-    }]
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Provide a project description',
+        validate: descriptionInput => {
+            if (descriptionInput) {
+                return true;
+            } else {
+                console.log('Please provide a project description');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What steps are needed to install your project?',
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log('Please provide installation steps');
+                return false;
+            }
+        }
+    },
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
