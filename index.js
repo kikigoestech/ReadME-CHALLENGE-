@@ -58,6 +58,72 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the use of your project?',
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('Please provide a use for your project');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contributions',
+        message: 'What guidelines must others follow in order to contribute?',
+        validate: contributionsInput => {
+            if (contributionsInput) {
+                return true;
+            } else {
+                console.log('Please enter contribution guidelines');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'How do you test this project?',
+        validate: testingInput => {
+            if (testingInput) {
+                return true;
+            } else {
+                console.log('Please explain how to test this project');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'askMe',
+        message: 'What is your Github username so others can reach you for questions?',
+        validate: askMeInput => {
+            if (askMeInput) {
+                return true;
+            } else {
+                console.log('Please provide your username so others can reach out to you with questions');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email so there is another way to be reached for questions?',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please provide an email');
+                return false;
+            }
+        }
+    }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
