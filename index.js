@@ -140,8 +140,18 @@ const writeToFile = fileContent => {
     });
 };
 
-// TODO: Create a function to initialize app
-function init() {}
+// TODO: function to initialize app
+function init() {
+    inquirer.prompt(questions)
+        .then(function(answer) {
+            console.log(answer);
+        var fileContent = generateMarkdown(answer);
+        writeToFile(fileContent)
+        });
+}
 
 // Function call to initialize app
 init();
+
+// exports
+module.exports = questions;
