@@ -20,7 +20,7 @@
   ## Usage:
   ### It quickly and easily generates a professional README.md for whatever project on which you are working
 
-  ### you can view a demo [here](https://drive.google.com/file/d/1hymj-TUz6R2OepaGx2gFhtAVg-0kvIYo/view) . If demo video is processing please download to view ! <iframe src="https://drive.google.com/file/d/1hymj-TUz6R2OepaGx2gFhtAVg-0kvIYo/preview" width="640" height="480"></iframe>
+  ### you can view a demo [here](https://drive.google.com/file/d/1hymj-TUz6R2OepaGx2gFhtAVg-0kvIYo/view) . If demo video is processing please download to view ! 
 
   ## Contributors:
   ### kikigoestech.
