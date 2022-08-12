@@ -27,6 +27,6 @@
 
   ## Questions:
   ### If you have any questions, you may contact me at either
-  ### Github: https://github.com/Miguel-Con-Queso
+  ### Github: https://github.com/kikigoestech
   ### or
   ### Email: kikigoestech@gmail.com
