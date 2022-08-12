@@ -1,4 +1,4 @@
-# Professional README 
+# Professional README Generator
 
 ## License: Apache 2.0  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
   ### http://www.apache.org/licenses/LICENSE-2.0
@@ -13,7 +13,9 @@
 
   ## Installation:
   ### You must install the following for this app to function:
-  ### Either follow the link bellow to my github, download it as a zip, and extract the files on your computer, or fork the repository and clone it onto your computer
+  ### To install this application, git clone this repository, or download the .zip file in the dropdown after clicking the green ‘Code’ button at the top of this repository—as long as it is in your local branch.
+
+  ### Using the code editor of your choice, ensure that node.js is installed (visit this link here for info on how to install node.js). Then you would need to install Inquirer.js node package by entering npm inquirer in the command line of terminal.
 
   ## Usage:
   ### It quickly and easily generates a professional README.md for whatever project on which you are working
